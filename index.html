@@ -1,0 +1,97 @@
+<!DOCTYPE html> 
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>TechTool Pro</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />	
+	<link href="css/font-awesome.min.css" rel="stylesheet"/>
+	<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.9.1/themes/smoothness/jquery-ui.css">
+
+
+
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="http://code.jquery.com/ui/1.9.1/jquery-ui.min.js"></script>
+<script src="script.js"></script>
+
+<script type="text/javascript" src="kdkdkdk/javascripts/jquery-1.9.1.min.js"></script>
+
+
+<script type="text/javascript">
+    
+$(document).ready(function(){
+	$('a[href^="#"]').on('click',function (e) {
+	    e.preventDefault();
+
+	    var target = this.hash;
+	    var $target = $(target);
+
+	    $('html, body').stop().animate({
+	        'scrollTop': $target.offset().top
+	    }, 900, 'swing');
+        
+	});
+});
+    </script>
+
+</head>
+   <header>
+         <div id="header-inner">
+             <a href="index.html" id="logo"></a>
+             <nav>
+                <a href="#" id="menu-icon"></a>
+                 <ul>
+                     <div class="outline">
+                     <li><a href="#top" class="current">Home</a></li>
+                     <li><a href="#">Skills</a></li>
+                     <li><a href="#">Services</a></li>
+                     <li><a href="#">Our Team</a></li>
+                     <li><a href="#Download">Download</a></li>
+                     </div>
+                 </ul>
+             </nav>
+         </div>
+    </header>
+<!---End NavHeader--->    
+   <section id="logotoptech">
+            <img src="img/Logo1nifty.png" >
+    </section>
+<!---End Logo And White Background--->      
+<body>
+    <section class="main" id="html">
+        <ul id="popcorn">
+            <div class="space2"></div>
+            <li id="phone"><a id="highlight">07860595566</a></li>
+            <div class="space1"></div>
+            <li id="email"><a id="highlight">neville@mac.com</a></li>
+            <div class="space"></div>
+            <li><a href="https://twitter.com/OliePlayz" target="_blank"><i class="fa fa-twitter"></i></a></li>
+        </ul>
+    </section>
+<!---End Email + Other Body Text--->
+<!---Download Teamviewer--->
+        <footer>
+        <ul class="social">
+            <div id="Download"></div>
+            <li><a id="sapce">Remote Support</a></li>
+            <li><center><a id="left"><img id="downloadicon" src="img/very-basic-download-icon.png"></a></center></li>
+        </ul>
+    </footer>
+    <footer id="finish">
+        <ul class="social2">
+            <div id="Download"></div>
+            <li><a href="https://download.teamviewer.com/download/TeamViewer.dmg" class="nounderline">Mac</a></li>
+            <li><a href="https://download.teamviewer.com/download/TeamViewer_Setup.exe" class="nounderline">Pc</a></li>
+        </ul>
+    </footer>
+<!---End Download Area For Teamviewer--->
+<!---Copyright--->
+    <footer class="seocund">
+        <p>&copy; TechTool Pro 2017</p>
+    </footer>
+<!---End Copyright--->    
+    
+</body>
+</html>
