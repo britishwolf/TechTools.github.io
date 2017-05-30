@@ -142,7 +142,7 @@ footer.seocund p{
         position: absolute;
     }
     #menu-icon {
-        display: inline-block;
+        display: hidden;
     }
     nav ul, nav:active ul {
         display: none;
